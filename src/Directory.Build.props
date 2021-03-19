@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <Authors>Pedro Miguel Fernandes</Authors>
+    <Company>PMFernandes.com</Company>
+    <Product>MQTTPublisher</Product>
+    <PackageProjectUrl>https://github.com/pmfernandes/mqtt-publisher</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pmfernandes/mqtt-publisher</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <license>https://github.com/pmfernandes/mqtt-publisher/blob/master/LICENSE</license>
+    <PackageLicenseExpression>GNU</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>
