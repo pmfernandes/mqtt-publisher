@@ -14,4 +14,7 @@
     <license>https://github.com/pmfernandes/mqtt-publisher/blob/master/LICENSE</license>
     <PackageLicenseExpression>GNU</PackageLicenseExpression>
   </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
 </Project>
