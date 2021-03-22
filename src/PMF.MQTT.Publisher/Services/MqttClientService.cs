@@ -33,7 +33,9 @@
 
         public Task HandleApplicationMessageReceivedAsync(MqttApplicationMessageReceivedEventArgs eventArgs)
         {
-            throw new System.NotImplementedException();
+            this.logger.LogTrace($"Message received: {eventArgs.ApplicationMessage.Topic}");
+
+            return Task.CompletedTask;
         }
 
         public async Task HandleConnectedAsync(MqttClientConnectedEventArgs eventArgs)

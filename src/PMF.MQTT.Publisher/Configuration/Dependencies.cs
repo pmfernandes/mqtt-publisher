@@ -15,6 +15,8 @@
             services.AddSingleton(applicationSettings);
 
             services.AddMqttClientHostedService(applicationSettings);
+
+            services.AddSingleton<IMessageFromFileService, MessageFromFileService>();
         }
 
         private static IServiceCollection AddMqttClientHostedService(
