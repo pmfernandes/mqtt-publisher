@@ -1,0 +1,3 @@
+topic: radio/state
+payload: '{"artist":"Nome do Artista","album":"Nome do Album","music":"Nome da Musica","image":"https://i.pinimg.com/originals/2f/09/14/2f0914f277cbf58d453bb0f86537a56c.jpg"}'
+retain: true

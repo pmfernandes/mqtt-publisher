@@ -1,0 +1,3 @@
+topic: homeassistant/sensor/RadioAlbum/config
+payload: '{"name": "RadioAlbum","state_topic": "radio/state","value_template": "{{value_json.album}}","icon": "mdi:file-music","device": {"manufacturer": "Pedro Miguel Fernandes","identifiers": ["08df8e78-48d4-452b-b269-256fe2d24f1b"],"model": "Radios","name": "Radio Integration","sw_version": "1.0.0.0"},"unique_id": "3d9203fe-01bc-401f-be10-42b338244f5f"}'
+retain: true

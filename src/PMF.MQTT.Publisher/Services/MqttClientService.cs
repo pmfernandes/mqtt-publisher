@@ -75,5 +75,10 @@
             }
             await this.mqttClient.DisconnectAsync(cancellationToken);
         }
+
+        public Task PublishMessageAsync(MqttApplicationMessage message)
+        {
+            return this.mqttClient.PublishAsync(message);
+        }
     }
 }
